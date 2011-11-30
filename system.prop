@@ -1,0 +1,40 @@
+#
+# system.prop for fb0
+#
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d /dev/smd0
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+# DEVICE_PROVISIONED=1
+debug.sf.hw=1
+ro.dev.dmm=1
+
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=90
+
+service.config.gsensor_cal=1
+libcamera.orientation=0
+libcamera.testmode.colorbar=0
+
+lpa.decode=false
+ro.hdmi.enable=true
+
+# Default network type.
+# 3 -> GSM/WCDMA (auto mode, according to PRL)
+ro.telephony.default_network=3
+ro.use_data_netmgrd=true
+ro.config.ehrpd=true
+keyguard.no_require_sim=true
+
+ro.telephony.call_ring.delay=1000
+wifi.wapi=0
+
+ro.tethering.kb_disconnect=1
+
