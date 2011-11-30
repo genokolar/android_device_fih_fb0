@@ -3,7 +3,7 @@ This is a WIP. Currently builds, flashes and boots. Most, but not all, things ar
 Here's what is currently working:
 
 - RIL/3G (credits to tickerguy)
-- Rear-facing camera
+- Front and Rear-facing camera (Credit to ikarosdev)
 - Wifi
 - Sound (credits to tickerguy)
 - Touchscreen w/ multitouch
@@ -20,4 +20,5 @@ Here's what is currently working:
 
 What doesn't work:
 
-- Front-facing camera
+- FM Radio
+ -HDMI
