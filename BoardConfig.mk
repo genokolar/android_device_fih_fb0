@@ -1,5 +1,5 @@
 # inherit from the proprietary version
--include vendor/motorola/triumph/BoardConfigVendor.mk
+-include vendor/fih/fb0/BoardConfigVendor.mk
 
 TARGET_SPECIFIC_HEADER_PATH := device/fih/fb0/include
 
