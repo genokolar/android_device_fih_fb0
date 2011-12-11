@@ -135,9 +135,9 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/fih/fb0/files/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
-    device/fih/fb0/files/lib/libaudioalsa.so:/system/lib/libaudioalsa.so 
-
+    device/fih/fb0/prebuilt/lib/libaudioalsa.so:/obj/lib/libaudioalsa.so \
+    device/fih/fb0/prebuilt/lib/libaudioalsa.so:/system/lib/libaudioalsa.so 
+    
 # Tunnelling
 PRODUCT_COPY_FILES += \
     device/fih/fb0/modules/tun.ko:/system/lib/modules/tun.ko 
@@ -193,6 +193,7 @@ PRODUCT_COPY_FILES += \
     device/fih/fb0/files/lib/libril.so:/system/lib/libril.so \
     device/fih/fb0/files/lib/libril-qc-1.so:/system/lib/libril-qc-1.so \
     device/fih/fb0/files/lib/libreference-ril.so:/system/lib/libreference-ril.so \
+    device/fih/fb0/files/lib/libreference-ril.so:/system/lib/libreference-cdma-sms.so \
     device/fih/fb0/files/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
     device/fih/fb0/files/lib/libdiag.so:/system/lib/libdiag.so \
     device/fih/fb0/files/lib/liboncrpc.so:/system/lib/liboncrpc.so \
